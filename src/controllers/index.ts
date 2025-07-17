@@ -8,5 +8,4 @@ export const router = Router()
 
 router.use("/auth", auth)
 router.use("/meeting", authenticateJwt, meeting);
-
 export default router
